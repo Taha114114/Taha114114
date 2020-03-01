@@ -1,0 +1,27 @@
+1.Download "PixeLogic.z01", "PixeLogic.z02", "PixeLogic.z03" and "PixeLogic.zip" to the same folder
+2.Extract "PixeLogic.zip"
+---------------------------------------------
+This project is implemented with an object-oriented design as following:
+It consists of 5 packages:
+
+	1."pages" containing identifiers of webelemnts:
+		a."MyAccountPage.java"
+		b."RegisterPage.java"
+	2."prop" containing variables used:
+		a."Test1.properties"
+	3."testbase" containing decleration of driver and main functions:
+		a."TestBase.java"
+	4."tests" containing test cases:
+		a."RegisterTests.java"
+	5."testutil" containing utilites used:
+		a."GetResponseData"
+		b."TakeScreenShoot"
+		c."writelogfile"
+----------------------------------------------
+URL, name, Email and all variables can be passed to the code via file "...\src\prop\Test1.properties"
+----------------------------------------------
+HTTP interceptor implemented as the first test case
+HTTP interceptor report generated in directory "...\test-output\[today]interceptor.txt" where [today] is date of running the project, for example "01_03_2020interceptor.txt"
+----------------------------------------------
+Customized report generated in directory "...\test-output\[today]_Report.html" where [today] is date of running the project, for example "01_03_2020_Report.html"
+----------------------------------------------
